@@ -14,6 +14,24 @@
           "note": "宣纸20滴水，出墨快，评分86",
           "score": 86
         }
+      ],
+      "batches": [
+        {
+          "id": "B-legacy-1-mugnmkai",
+          "at": "2026-06-11",
+          "paper": "",
+          "water": "",
+          "speed": "",
+          "colorLayer": "",
+          "sediment": "",
+          "score": 86,
+          "note": "宣纸20滴水，出墨快，评分86",
+          "legacy": true,
+          "status": "pending",
+          "review": null,
+          "history": [],
+          "version": 1
+        }
       ]
     },
     {
@@ -41,7 +59,26 @@
           "sediment": "少",
           "score": 79
         }
+      ],
+      "batches": [
+        {
+          "id": "B-legacy-1-mugnmkai",
+          "at": "2026-06-21T03:50:28.907Z",
+          "paper": "棉连纸",
+          "water": "18滴",
+          "speed": "中",
+          "colorLayer": "偏暖",
+          "sediment": "少",
+          "score": 79,
+          "note": "",
+          "legacy": true,
+          "status": "pending",
+          "review": null,
+          "history": [],
+          "version": 1
+        }
       ]
     }
-  ]
+  ],
+  "schemaVersion": 2
 }
