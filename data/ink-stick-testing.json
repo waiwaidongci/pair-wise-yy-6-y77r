@@ -13,6 +13,64 @@
           "step": "试磨",
           "note": "宣纸20滴水，出墨快，评分86",
           "score": 86
+        },
+        {
+          "at": "2026-09-25T07:43:01.653Z",
+          "step": "复核确认",
+          "note": "批次B-mugnkktx-1，复核人：甲"
+        },
+        {
+          "at": "2026-09-25T07:43:54.864Z",
+          "step": "试磨",
+          "note": "皮纸，评分91（待复核）",
+          "score": 91
+        }
+      ],
+      "batches": [
+        {
+          "id": "B-mugnkktx-1",
+          "at": "2026-06-11",
+          "paper": "宣纸",
+          "water": "20滴",
+          "speed": "",
+          "colorLayer": "",
+          "sediment": "",
+          "score": 86,
+          "note": "宣纸20滴水，出墨快，评分86",
+          "review": {
+            "status": "confirmed",
+            "by": "甲",
+            "at": "2026-09-25T07:43:01.653Z",
+            "reason": null,
+            "revision": 1,
+            "history": [
+              {
+                "action": "confirm",
+                "by": "甲",
+                "at": "2026-09-25T07:43:01.653Z",
+                "reason": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "B-mugnmtio-3",
+          "at": "2026-09-25T07:43:54.864Z",
+          "paper": "皮纸",
+          "water": "22滴",
+          "speed": "慢",
+          "colorLayer": "清透",
+          "sediment": "微",
+          "score": 91,
+          "note": "复磨验证",
+          "review": {
+            "status": "pending",
+            "by": null,
+            "at": null,
+            "reason": null,
+            "revision": 0,
+            "history": []
+          }
         }
       ]
     },
@@ -29,19 +87,64 @@
           "step": "试磨",
           "note": "棉连纸，评分79",
           "score": 79
+        },
+        {
+          "at": "2026-09-25T07:43:01.699Z",
+          "step": "复核退回",
+          "note": "批次B-mugnkktx-2，复核人：乙，原因：沉淀偏多，需换纸重磨"
+        },
+        {
+          "at": "2026-09-25T07:43:01.714Z",
+          "step": "重新提交",
+          "note": "批次B-mugnkktx-2修改后重提，提交人：丙"
+        },
+        {
+          "at": "2026-09-25T07:43:23.188Z",
+          "step": "复核确认",
+          "note": "批次B-mugnkktx-2，复核人：甲"
         }
       ],
-      "tests": [
+      "batches": [
         {
+          "id": "B-mugnkktx-2",
           "at": "2026-06-21T03:50:28.907Z",
           "paper": "棉连纸",
           "water": "18滴",
           "speed": "中",
           "colorLayer": "偏暖",
           "sediment": "少",
-          "score": 79
+          "score": 79,
+          "note": "",
+          "review": {
+            "status": "confirmed",
+            "by": "甲",
+            "at": "2026-09-25T07:43:23.188Z",
+            "reason": null,
+            "revision": 3,
+            "history": [
+              {
+                "action": "return",
+                "by": "乙",
+                "at": "2026-09-25T07:43:01.699Z",
+                "reason": "沉淀偏多，需换纸重磨"
+              },
+              {
+                "action": "resubmit",
+                "by": "丙",
+                "at": "2026-09-25T07:43:01.714Z",
+                "reason": null
+              },
+              {
+                "action": "confirm",
+                "by": "甲",
+                "at": "2026-09-25T07:43:23.188Z",
+                "reason": null
+              }
+            ]
+          }
         }
       ]
     }
-  ]
+  ],
+  "version": 2
 }
